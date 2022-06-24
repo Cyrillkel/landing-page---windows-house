@@ -15,7 +15,7 @@
     <div class="container">
       <div class="header-block">
         <div class="header-block__logo">
-          <img class="logo__img" src="./img/logo.svg" alt="logo">
+          <img class="header-block__img" src="./img/logo.svg" alt="logo">
         </div>
 
         <nav class="navigations">
@@ -43,7 +43,84 @@
     </div>
   </header>
 
-  <main class="main">
+  <main>
+
+    <!-- section main -->
+
+    <section class="main">
+      <div class="container">
+        <div class="main-info">
+          <div class="main-info__left">
+            <div class="main-info__slogan">
+              <h1 class="main-info__subtitle">
+                <span class="main-info__title">
+                  Окна хаус -
+                </span>
+                Профессиональный подход <br>
+                к остекленению
+              </h1>
+              <div class="main-info__block">
+                <div class="main-info__item">
+                  <img class="main-info__icon" src="./img/Main-icon.svg" alt="">
+                  <p class="main-info__description">
+                    Современные окна и балконные конструкции по доступным ценам
+                  </p>
+                </div>
+                <div class="main-info__item">
+                  <img class="main-info__icon" src="./img/Main-icon_2.png" alt="">
+                  <p class="main-info__description">
+                    Квалифицированный подход к решению задач любой сложности
+                  </p>
+                </div>
+                <div class="main-info__item">
+                  <img class="main-info__icon" src="./img/Main-icon_3.png" alt="">
+                  <p class="main-info__description">
+                    Гарантия высочайшего качества нашей продукции
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-info">
+            <div class="main-info__right form">
+              <form action="" class="form__feedback">
+                <h2 class="form__feedback-title">
+                  Вызвать замерщика на дом
+                </h2>
+                <div class="form__feedback-inputs input">
+                  <input class="input__item" type="text" placeholder="Представьтесь, пожалуйста">
+                  <br>
+                  <br>
+                  <input class="input__item" type="password" placeholder="Номер телефона">
+                  <br>
+                  <br>
+                  <input class="input__item" type="email" placeholder="E-mail">
+                  <br>
+                  <br>
+                  <div class="input__checkbox">
+                    <input class="input__item input__item_check" type="checkbox" name="name" id="id">
+                    <label for="id">
+                      <p class="input__text">
+                        Согласен на обработку персональных данных в соответствии с
+                        <span class="input__text input__text_color">
+                          политикой конфиденциальности
+                        </span>
+                      </p>
+                    </label>
+                  </div>
+                  <button class="form__feedback-button">
+                    Отправить заявку
+                  </button>
+                  <img class="form__icon" src="./img/ruler.svg" alt="ruler">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
     <!--section services-->
 
@@ -60,7 +137,7 @@
                 Установка <br> пластиковых окон
               </h3>
             </div>
-            <p class="services-cards__discription">
+            <p class="services-cards__description">
               Устанавливаем пластиковые окна<br>
               Rehau от проверенного производителя<br>
               с гарантией качества
@@ -75,7 +152,7 @@
                 и лоджий
               </h3>
             </div>
-            <p class="services-cards__discription">
+            <p class="services-cards__description">
               Занимаемся остеклением и отделкой<br>
               балконов и лоджий. Теплое и холодное<br>
               остекление, изготовление выносов и<br>
@@ -92,7 +169,7 @@
                 котеджей и дач
               </h3>
             </div>
-            <p class="services-cards__discription">
+            <p class="services-cards__description">
               Остекленение и отделка под ключ:<br>
               от котеджей и дач до террас<br>
               и беседок. Выделяем личного<br>
@@ -108,7 +185,7 @@
                 корпоративных объектов
               </h3>
             </div>
-            <p class="services-cards__discription">Реализуем сложные проекты<br>
+            <p class="services-cards__description">Реализуем сложные проекты<br>
               по остеклению торговых центров,<br>
               ресторанов, производственных помещений<br>
               и офисов
@@ -126,15 +203,11 @@
           Продукция
         </h2>
         <nav class="production-navigations">
-          <ul class="navigations-list">
-            <li class="navigations-list__item navigations-list__item_color"><a class="navigations-list__link"
-                href="#">Стандарт</a></li>
-            <li class="navigations-list__item navigations-list__item_color"><a class="navigations-list__link"
-                href="#">Бизнес</a></li>
-            <li class="navigations-list__item navigations-list__item_color"><a class="navigations-list__link"
-                href="#">Премиум</a></li>
-            <li class="navigations-list__item navigations-list__item_color"><a class="navigations-list__link"
-                href="#">Эксклюзив</a></li>
+          <ul class="navigations-list li">
+            <li class="li__item"><a class="li__link" href="#">Стандарт</a></li>
+            <li class="li__item"><a class="li__link" href="#">Бизнес</a></li>
+            <li class="li__item"><a class="li__link" href="#">Премиум</a></li>
+            <li class="li__item"><a class="li__link" href="#">Эксклюзив</a></li>
         </nav>
 
         <div class="production-cards production-cards_size">
@@ -147,7 +220,7 @@
               <h3 class="production-cards__title">
                 Rehau Blitz New
               </h3>
-              <p class="production-cards__title-discription">
+              <p class="production-cards__title-description">
                 Сохраняют тепло в доме, защищают от шума
                 <br>
                 и вписываются в любой интерьер.
@@ -156,35 +229,43 @@
               </p>
               <div class="production-cards__feature">
                 <div class="produtcion-cards__feature-item">
-                  <span class="production-cards__feature-discription">Системная глубина
+                  <span class="production-cards__feature-description">
+                    Системная глубина
                   </span>
-                  <span class="production-cards__feature-discription_border">
+                  <span class="production-cards__feature-description_border">
                   </span>
-                  <span class="production-cards__feature-discription_border_value">60/60 мм
-                  </span>
-                </div>
-                <div class="produtcion-cards__feature-item">
-                  <span class="production-cards__feature-discription">Ширина стеклопакета
-                  </span>
-                  <span class="production-cards__feature-discription_border">
-                  </span>
-                  <span class="production-cards__feature-discription_border_value">24/31 мм
+                  <span class="production-cards__feature-description_border_value">
+                    60/60 мм
                   </span>
                 </div>
                 <div class="produtcion-cards__feature-item">
-                  <span class="production-cards__feature-discription">Воздушные камеры
+                  <span class="production-cards__feature-description">
+                    Ширина стеклопакета
                   </span>
-                  <span class="production-cards__feature-discription_border">
+                  <span class="production-cards__feature-description_border">
                   </span>
-                  <span class="production-cards__feature-discription_border_value">3
+                  <span class="production-cards__feature-description_border_value">
+                    24/31 мм
                   </span>
                 </div>
                 <div class="produtcion-cards__feature-item">
-                  <span class="production-cards__feature-discription">Теплосопротивление
+                  <span class="production-cards__feature-description">
+                    Воздушные камеры
                   </span>
-                  <span class="production-cards__feature-discription_border">
+                  <span class="production-cards__feature-description_border">
                   </span>
-                  <span class="production-cards__feature-discription_border_value">0,70 м2С/ВТ
+                  <span class="production-cards__feature-description_border_value">
+                    3
+                  </span>
+                </div>
+                <div class="produtcion-cards__feature-item">
+                  <span class="production-cards__feature-description">
+                    Теплосопротивление
+                  </span>
+                  <span class="production-cards__feature-description_border">
+                  </span>
+                  <span class="production-cards__feature-description_border_value">
+                    0,70 м2С/ВТ
                   </span>
                 </div>
               </div>
@@ -192,7 +273,6 @@
           </div>
         </div>
     </section>
-
   </main>
 </body>
 
