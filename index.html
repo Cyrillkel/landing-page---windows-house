@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" type="text/css">
   <link rel="stylesheet" href="./css/reset.css" type="text/css">
   <title>Document</title>
@@ -197,7 +200,7 @@
 
     <!--section production-->
 
-    <!-- <section class="production">
+    <section class="production">
       <div class="container">
         <h2 class="title-sections">
           Продукция
@@ -212,7 +215,7 @@
 
         <div class="production-cards production-cards_size">
           <div class="production-cards__cards-item production-cards__cards-item_theme">
-            <div class="production-cards__icon">
+            <div class="production-cards__image">
             </div>
           </div>
           <div class="production-cards__cards-item production-cards__cards-item_background">
@@ -272,11 +275,11 @@
             </div>
           </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- section-quality -->
 
-    <!-- <div class="container">
+    <div class="container">
       <section class="section-quality">
         <div class="section-quality__title quality-title">
           <img class="quality-title__icon" src="./img/quality-title.png">
@@ -328,7 +331,122 @@
       </div>
     </div>
 
+    <!--section-about -->
 
+    <section class="about">
+      <div class="container">
+        <h2 class="title-sections">
+          О компании
+        </h2>
+        <nav class="production-navigations">
+          <ul class="navigations-list li">
+            <li class="li__item"><a class="li__link" href="#">Описание</a></li>
+            <li class="li__item"><a class="li__link" href="#">Как мы работаем</a></li>
+            <li class="li__item"><a class="li__link" href="#">Отзывы</a></li>
+            <li class="li__item"><a class="li__link" href="#">Сертификаты</a></li>
+        </nav>
+
+        <div class="about-cards">
+          <div class="about-cards__cards about-cards__cards_left">
+            <div class="about-cards__image">
+              <img src="./img/about-logo.png" alt="about-logo">
+            </div>
+            <div class="about-cards__description">
+              <p class="about-cards__text">Мы помогаем клиентам подбирать решения,
+                учитывая пожежелания к характеристикам окна и его стоимости.
+                Окно - это объект, которым Вы будете пользоваться много лет,
+                поэтому для нас очень важно, чтобы Вы сделали правильный выбор.
+              </p>
+            </div>
+          </div>
+          <div class="about-cards__cards about-cards__cards_right">
+            <img class="about-cards__background" src="./img/about.png" alt="about">
+          </div>
+        </div>
+
+        <div class="about-list">
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_1.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                ПРОФЕССИОНАЛАЗИМ
+              </h4>
+              <p class="item-about__description">
+                Бригада профессиональных
+                мастеров по монтажу
+                и обслуживанию
+              </p>
+            </div>
+          </div>
+
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_2.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                ЦЕНООБРАЗОВАНИЕ
+              </h4>
+              <p class="item-about__description">
+                Лучшие цены на рынке пластиковых окон
+              </p>
+            </div>
+          </div>
+
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_3.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                МОБИЛЬНОСТЬ
+              </h4>
+              <p class="item-about__description">
+                Заключение договора на дому
+              </p>
+            </div>
+          </div>
+
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_4.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                ЛОЯЛЬНОСТЬ
+              </h4>
+              <p class="item-about__description">
+                99% клиентов рекомендуют нас своим друзьям
+              </p>
+            </div>
+          </div>
+
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_5.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                СКОРОСТЬ
+              </h4>
+              <p class="item-about__description">
+                Короткие сроки установки изделий
+              </p>
+            </div>
+          </div>
+
+          <div class="about-list__item item">
+            <img class="item__ic" src="./img/about-icon_6.svg" alt="about-icon">
+            <div class="item__block">
+              <h4 class="item-about__title">
+                СЛУЖБА КАЧЕСТВА
+              </h4>
+              <p class="item-about__description">
+                Безупречное качество и контроль изделий ПВХ
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons about-buttons">
+          <button class="buttons buttons__buttons-one">
+            <img class="buttons__about-icon" src="./img/button-one.svg" alt="about-button">
+            Оформить заявку на размер
+          </button>
+        </div>
+    </section>
   </main>
 </body>
 
