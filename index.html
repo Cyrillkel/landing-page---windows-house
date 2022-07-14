@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css" type="text/css">
   <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
   <title>Document</title>
 </head>
 
@@ -18,18 +18,19 @@
     <div class="container">
       <div class="header-block">
         <div class="header-block__logo">
-          <img class="header-block__img-burger" src="./img/burger.svg" alt="burger">
+          <div class="header-block__img-burger"></div>
+          <!-- <img class="header-block__img-burger" src="./img/burger.svg" alt="burger"> -->
           <img class="header-block__img" src="./img/logo.svg" alt="logo">
         </div>
 
         <nav class="navigations">
           <ul class="navigations-list">
-            <li class="navigations-list__item"><a class="link" href="#">Услуги</a></li>
-            <li class="navigations-list__item"><a class="link" href="#">Продукция</a></li>
-            <li class="navigations-list__item"><a class="link" href="#">О компании</a></li>
-            <li class="navigations-list__item"><a class="link" href="#">Портфолио</a></li>
-            <li class="navigations-list__item"><a class="link" href="#">Вопрос-ответ</a></li>
-            <li class="navigations-list__item"><a class="link" href="#">Контакты</a></li>
+            <li class="navigations-list__item"><a class="link" href="#services">Услуги</a></li>
+            <li class="navigations-list__item"><a class="link" href="#production">Продукция</a></li>
+            <li class="navigations-list__item"><a class="link" href="#about">О компании</a></li>
+            <li class="navigations-list__item"><a class="link" href="#portfolio">Портфолио</a></li>
+            <li class="navigations-list__item"><a class="link" href="#question">Вопрос-ответ</a></li>
+            <li class="navigations-list__item"><a class="link" href="#contacts">Контакты</a></li>
           </ul>
         </nav>
 
@@ -129,7 +130,7 @@
 
     <section class="services">
       <div class="container">
-        <h2 class="title-sections services__title">
+        <h2 class="title-sections services__title" id="services">
           Наши услуги
         </h2>
         <div class="services-cards">
@@ -202,7 +203,7 @@
 
     <section class="production">
       <div class="container">
-        <h2 class="title-sections">
+        <h2 class="title-sections" id="production">
           Продукция
         </h2>
         <nav class="production-navigations">
@@ -335,7 +336,7 @@
 
     <section class="about">
       <div class="container">
-        <h2 class="title-sections">
+        <h2 class="title-sections" id="about">
           О компании
         </h2>
         <nav class="production-navigations">
@@ -453,7 +454,9 @@
 
     <div class="container">
       <div class="section-portfolio">
-        <h2 class="title-sections title-portfolio">Портфолио</h2>
+        <h2 class="title-sections title-portfolio" id="portfolio">
+          Портфолио
+        </h2>
         <div class="section-portfolio__block">
           <div class="section-portfolio__item">
             <img src="./img/section-portfolio_1.png" alt="" class="section-portfolio__image">
@@ -475,47 +478,214 @@
 
     <div class="container">
       <div class="section-question">
-        <h2 class="title-sections section-question">Вопрос-ответ</h2>
+        <h2 class="title-sections question__title" id="question">
+          Вопрос-ответ
+        </h2>
         <details class="section-question__item">
           <summary class="section-question__title">
             Сколько по времени занимает изготовление пластиковых окон?
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
         <details class="section-question__item">
           <summary class="section-question__title">
             Какие существуют способы оплаты?
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
         <details class="section-question__item">
           <summary class="section-question__title">
             Где я могу посмотреть образцы?
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
         <details class="section-question__item">
           <summary class="section-question__title">
             Зачем вызывать замерщика? Я могу дать размеры
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
         <details class="section-question__item">
           <summary class="section-question__title">
             Хотелось бы отделать балкон. Поможете?
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
         <details class="section-question__item">
           <summary class="section-question__title">
             Мне надо нанимать грузчиков для подъема?
+            <div class="section-question__arrow arrow">
+              <span class="arrow_left">
+              </span>
+              <span class="arrow_right">
+              </span>
+            </div>
           </summary>
-          Нет, команда мастеров все сами аккуратно доставят и внесут.
+          <span class="section-question__title-answer">
+            Нет, команда мастеров все сами аккуратно доставят и внесут.
+          </span>
         </details>
       </div>
     </div>
 
+    <!-- section-contacts -->
+
+    <div class="container">
+      <h2 class="title-sections title-contacts" id="contacts">
+        Контакты
+      </h2>
+      <div class="section-contacts">
+        <div class="section-contacts__info-block info-block">
+          <div class="info-block__title">
+            Бесплатная консултация
+          </div>
+          <div class="info-block__phones info-content">
+            <div class="info-content__icon">
+              <img class="info-block__icons-contacts" src="./img/contacts_1.svg" alt="contacts-icon">
+              <a class="info-block__links" href="">8 (4932)34-31-40</a>
+              <a class="info-block__links" href="">8 (905) 109-31-40</a>
+            </div>
+          </div>
+          <div class="info-block__address">
+            <img class="info-block__icons-contacts" src="./img/contacts_2.svg" alt="contacts-icon">
+            <p class="info-block__text contacts-text">
+              г. Иваново, ул. Генерала Хлебникова, д.54, оф.303
+            </p>
+          </div>
+          <div class="info-block__mail">
+            <img class="info-block__icons-contacts" src="./img/contacts_3.svg" alt="contatcts-icon">
+            <p class="info-block__mail contacts-text">
+              okna@haus.ru
+            </p>
+          </div>
+          <div class="info-block__description contacts-description">
+            <p class="info-block__description-text">Установку должны выполнять только эксперты. Нам доверяют сотни
+              семей.
+              Узнайте поробнее, какие решения вам подходят.
+              Вы можете приобрести недорогие товары
+              при гарантированно
+              высоком качестве.
+            </p>
+            <div class="info-block__icons icons-social">
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_0.svg" alt="icons-social__icon_0">
+              </a>
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_2.svg" alt="icons-social__icon_1">
+              </a>
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_3.svg" alt="icons-social__icon_2">
+              </a>
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_1.svg" alt="icons-social__icon_3">
+              </a>
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_4.svg" alt="icons-social__icon_4">
+              </a>
+              <a href="https://www.youtube.com/watch?v=q43G9FTaomg&t=1580s" target="_blank">
+                <img class="icons-social__icon" src="./img/icon-social_5.svg" alt="icons-social__icon_5">
+              </a>
+            </div>
+          </div>
+          <div class="info-block__images">
+            <img class="info-block__image" src="./img/workers.png" alt="workers">
+            <img class="info-block__helments" src="./img/helmets.svg" alt="helmets">
+          </div>
+        </div>
+        <div class="section-contacts__form-block contacts-feedback">
+          <form action="" class="contacts-feedback__form">
+            <h2 class="contacts-feedback__title">
+              Остались вопросы?
+            </h2>
+            <div class="сontacts-feedback__inputs input">
+              <input class="input__item input__item_size" type="login" placeholder="Ваше имя">
+              <br>
+              <br>
+              <input class="input__item input__item_size" type="mail" placeholder="E-mail">
+              <br>
+              <br>
+              <input class="input__item input__item_size_larg" type="text" placeholder="Ваш отзыв">
+              <br>
+              <br>
+              <div class="input__checkbox">
+                <input class="input__item input__item_check" type="checkbox" name="name" id="id">
+                <label for="id">
+                  <p class="input__text">
+                    Я согласен(на) на обработку
+                    <span class="input__text input__text_hue">
+                      персональных данных
+                    </span>
+                  </p>
+                </label>
+              </div>
+              <button class="contacts-feedback__button">
+                Отправить сообщение
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </main>
+
+  <!-- section-footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="section-footer">
+        <div class="section-footer__items">
+          <img class="section-footer__logo" src="./img/logo-footer.svg" alt="logo-footer">
+          <p class="section-footer__description">
+            © ООО “Окна Хаус”, 2011 - 2022
+          </p>
+        </div>
+        <div class="section-footer__text footer-item">
+          <span class="footer-item__text footer-item__text_left">Политика конфиденциальности</span>
+          <span class="footer-item__text">Пользовательское соглашение</span>
+          </p>
+        </div>
+      </div>
+  </footer>
 </body>
 
 </html>
