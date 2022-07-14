@@ -22,13 +22,6 @@ body {
   height: 97px;
 }
 
-/* .header-block__img-burger { 
-  display: none;
-  width: 56px;
-  height: 35px;
-  margin: 31px 44px 31px 0;
-} */
-
 .navigations {
   display: flex;
   justify-content: space-between;
@@ -47,6 +40,10 @@ body {
 
 .link {
   color: #000000;
+}
+
+.link:hover {
+  color: #EF7F04;
 }
 
 .buttons {
@@ -232,6 +229,10 @@ display: block;
   background: #e2e2e2;
   border-radius: 3px;
   padding-left: 16px;
+}
+
+.input__item {
+  margin-bottom: 15px;
 }
 
 .input__item::placeholder {
@@ -765,7 +766,7 @@ border-radius: 3px;
   border-radius: 7px;
 }
 
-.question__title {
+.question-title {
   color: #ffffff;
   margin-bottom: 79px;
 }
@@ -779,12 +780,6 @@ border-radius: 3px;
   padding: 25px 0 10px 20px;
   cursor: pointer;
   position: relative;
-}
-
-.arrow {
-  position: relative;
-  cursor: pointer;
-  width: 80px;
 }
 
 .arrow {
@@ -908,6 +903,14 @@ border-radius: 3px;
 
 .contacts-text {
   display: inline-block;
+}
+
+.contacts-text__mail-link {
+  color: #000;
+}
+
+.contacts-text__mail-link:hover {
+  color: #EF7F1A;
 }
 
 .info-block__address {
@@ -1081,7 +1084,7 @@ border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 55px 0;
+  padding: 35px 0;
 }
 
 .section-footer__logo {
